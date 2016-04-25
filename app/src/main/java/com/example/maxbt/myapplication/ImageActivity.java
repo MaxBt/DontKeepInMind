@@ -40,7 +40,7 @@ public class ImageActivity extends AppCompatActivity implements PointCollectorLi
 
 
 
-
+        Toast.makeText(this,"ENTER PASSPONTS !!!",Toast.LENGTH_LONG).show();
         addTouchListener();
         setArePasspointsSetted(passpointsManager.arePasspointSetted());
         if(!arePasspointsSetted){showPromptCreatePsswrd();}
