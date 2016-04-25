@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="enter_text_hint">Enter some text</string>
+    <string name="name_save_btn">Save</string>
+    <string name="toast_file_saved">Saved in inner memory</string>
+    <string name="passimage">Passimage</string>
+    <string name="progress">Storing...</string>
+    <string name="check_prgrss">Checking...</string>
+    <string name="name_lock_btn">Lock</string>
+    <string name="menu_reset_passpoints">Reset passpoints</string>
+    <string name="menu_change_photo">Take new photo</string>
+</resources>

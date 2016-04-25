@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_reset_passpoints"
+        android:title="@string/menu_reset_passpoints"
+/>
+    <item android:id="@+id/menu_change_photo"
+        android:title="@string/menu_change_photo"
+        />
+</menu>
