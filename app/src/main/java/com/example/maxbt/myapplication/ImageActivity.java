@@ -43,7 +43,7 @@ public class ImageActivity extends AppCompatActivity implements PointCollectorLi
 
         addTouchListener();
         setArePasspointsSetted(passpointsManager.arePasspointSetted());
-        if(!arePasspointsSetted){showPromptCreatePsswrd();};
+        if(!arePasspointsSetted){showPromptCreatePsswrd();}
         pointCollector.setCollectedPointListener(this);
         passpointsManager.setPointCollector(pointCollector);
 
@@ -94,6 +94,19 @@ public class ImageActivity extends AppCompatActivity implements PointCollectorLi
         AlertDialog dig = builder.create();
         dig.show();
 
+    }
+
+    private void showPromptRepeatPsswrd() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Repeat passpoints");
+        builder.setMessage("You need do it");
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+        AlertDialog dig = builder.create();
+        dig.show();
     }
 
     private void showPromptCreatePsswrd() {
